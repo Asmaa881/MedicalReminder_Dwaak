@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_drug_nav_graph"
+    tools:ignore="InvalidNavigation">
+    <fragment
+        android:id="@+id/add_drug_first_fragment"
+        android:name="com.example.mediacalremider.drugs.add_drugs.view.AddDrugFirstFragment"
+        tools:layout="@layout/fragment_add_drug_first">
+        <action
+            android:id="@+id/go_to_add_drug_second_fragment"
+            app:destination="@+id/add_drug_second_fragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/add_drug_second_fragment"
+        android:name="com.example.mediacalremider.drugs.add_drugs.view.AddDrugSecondFragment"
+        tools:layout="@layout/fragment_add_drug_second">
+        <action
+            android:id="@+id/go_to_add_drug_third_fragment"
+            app:destination="@+id/add_drug_third_fragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/add_drug_third_fragment"
+        android:name="com.example.mediacalremider.drugs.add_drugs.view.AddDrugThirdFragment"
+        tools:layout="@layout/fragment_add_drug_third">
+        <action
+            android:id="@+id/go_to_add_drug_fourth_fragment"
+            app:destination="@+id/add_drug_fourth_fragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/add_drug_fourth_fragment"
+        android:name="com.example.mediacalremider.drugs.add_drugs.view.AddDrugFourthFragment"
+        tools:layout="@layout/fragment_add_drug_fourth">
+        <action
+            android:id="@+id/go_to_add_drug_fifth_fragment"
+            app:destination="@+id/add_drug_fifth_fragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_drug_fifth_fragment"
+        android:name="com.example.mediacalremider.drugs.add_drugs.view.AddDrugFifthFragment"
+        tools:layout="@layout/fragment_add_drug_fifth">
+    </fragment>
+
+</navigation>

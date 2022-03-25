@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.AddDependency"
+    android:background="@color/appBackground"
+    >
+
+    <TextView
+        android:id="@+id/addDependencyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Add Health Taker"
+        android:textColor="@color/teal_700"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dependency_icon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addDependencyTitle" />
+
+    <EditText
+        android:id="@+id/dependencyEmailTxt"
+        android:layout_width="230sp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/healthTackerEmailHint"
+        android:inputType="textPersonName|text"
+        android:paddingLeft="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dependency_icon" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addDependentBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.6"
+        android:layout_marginBottom="48dp"
+        android:backgroundTintMode="src_over"
+        android:padding="8dp"
+        android:textSize="22sp"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/icon_next"
+        app:iconGravity="end"
+        app:iconPadding="16dp"
+        android:text="@string/send"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dependencyEmailTxt" />
+
+    <!--
+    <Button
+        android:id="@+id/addDependentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dependencyEmailTxt" />
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>

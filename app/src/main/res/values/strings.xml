@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Mediacal Remider</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="namelHint">Enter your Name</string>
+    <string name="emailHint">Enter your email</string>
+    <string name="passwordHint">Enter your password</string>
+    <string name="passwordConfirmHint">Confirm your password</string>
+    <string name="activeMedicien">Active Medicine</string>
+    <string name="inActive">Inactive Medicine</string>
+    <string name="send">Send</string>
+    <string name="health_tacker_email">Health Tacker \'s Email</string>
+    <string name="healthTackerEmailHint">Health Tacker \'s Email  </string>
+    <string name="seeRequest">See Your Requests</string>
+    <string name="requests">Requests</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addDrugDetails">Please Add Drug Details Carefully!!</string>
+    <string name="selectDrugType">Select Drug Type</string>
+    <string name="takingDrugFor">Taking Drug For</string>
+    <string name="g">g</string>
+    <string name="mg">mg</string>
+    <string name="IU">IU</string>
+    <string name="mcg">mcg</string>
+    <string name="mcgPerml">mcg/ml</string>
+    <string name="mEq">mEq</string>
+    <string name="ml">ml</string>
+    <string name="precent">%</string>
+    <string name="mgPerg">mg/g</string>
+    <string name="mgPercm2">mg/cm2</string>
+    <string name="mgPerml">mg/ml</string>
+    <string name="mcgPerhr">mcg/hr</string>
+    <string name="drugStrength">Drug Strength</string>
+    <string name="next">Next</string>
+    <string name="recurrencyOfTakingDrug">How Offen Do You Take It?</string>
+    <string name="theNumberOfTimesTakingIt">The Number Of Times Taking It</string>
+    <string name="perDay">Per Day</string>
+    <string name="perWeek">Per Week</string>
+    <string name="other">Other</string>
+    <string name="endDate">End Date</string>
+    <string name="startDate">Start Date</string>
+    <string name="skip">Skip</string>
+    <string name="refillReminder">Refill Reminder</string>
+    <string name="numberOfPillsYouHave">Number Of Pills You Have</string>
+    <string name="reminderMeWhenIHave">Reminder Me WhenI Have</string>
+    <string name="selectTime">Select Time</string>
+    <string name="chooseIcon">Choose Icon If You Need</string>
+    <string name="selectStartDate">Select Start Date</string>
+    <string name="selectEndDate">Select End Date</string>
+    <string name="save">Save</string>
+    <string name="addInstructions">Add Instructions If You Want..</string>
+    <string name="perMonth">Per Month</string>
+    <string name="clearAll">Clear All</string>
+    <string name="selectDays">Select Days</string>
+    <string name="ok">Ok</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="signup_btn">signup</string>
+    <string name="tab1">Update</string>
+    <string name="tab2"> Medications</string>
+    <string name="tab3"> More</string>
+    <string name="selectStrengthUnit">Select Strength Unit</string>
+    <string name="medicationName">Medication Name</string>
+    <string name="strength">Strength</string>
+    <string name="schedual">Schedual</string>
+    <string name="instructions">Instructions</string>
+    <string name="icon">Icone</string>
+    <string name="refill">Refill Setting</string>
+    <string name="reminder_me_at">Reminder me at :</string>
+    <string name="reminder_when_num">Reminder when Num :</string>
+    <string name="current_pill_num">Current Pill Num:</string>
+    <string name="done">Done</string>
+    <string name="display_drug_info">Display Drug Info</string>
+    <string name="edit_drug_info">Edit Drug Info</string>
+    <string name="take">Take</string>
+    <string name="update">Update</string>
+    <string name="pref_key_user_status">pref_key_user_status</string>
+
+
+    <string-array name="drugTypeOptions">
+        <item>Pill</item>
+        <item>Solution</item>
+        <item>Injection</item>
+        <item>Powder</item>
+        <item>Drops</item>
+        <item>Inhaler</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="dayArray">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="pillStringsUnits">
+        <item>g</item>
+        <item>IU</item>
+        <item>mcg</item>
+        <item>mEq</item>
+        <item>mg</item>
+    </string-array>
+    <string-array name="solutionOROtherStringsUnits">
+        <item>g</item>
+        <item>IU</item>
+        <item>mcg</item>
+        <item>mcg/ml</item>
+        <item>mEq</item>
+        <item>mg</item>
+        <item>mg/ml</item>
+        <item>%</item>
+    </string-array>
+
+    <string-array name="injectionStringsUnits">
+        <item>IU</item>
+        <item>mcg</item>
+        <item>mcg/ml</item>
+        <item>mEq</item>
+        <item>mg</item>
+        <item>mg/ml</item>
+        <item>ml</item>
+        <item>%</item>
+    </string-array>
+
+    <string-array name="powderStringsUnits">
+        <item>g</item>
+        <item>mcg</item>
+        <item>mg</item>
+    </string-array>
+
+    <string-array name="dropsStringsUnits">
+        <item>IU</item>
+        <item>mcg</item>
+        <item>mcg/ml</item>
+        <item>mEq</item>
+        <item>mg/ml</item>
+        <item>%</item>
+    </string-array>
+    <string-array name="inhalerStringsUnits">
+        <item>mcg</item>
+        <item>mg</item>
+        <item>mg/ml</item>
+    </string-array>
+</resources>

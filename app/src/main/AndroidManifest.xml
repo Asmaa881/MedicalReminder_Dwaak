@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mediacalremider">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediacalRemider">
+        <receiver
+            android:name=".notifications.DialogBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity
+            android:name=".DialogActitvity"
+            android:exported="false"
+            android:theme="@style/TransparentCompat"
+            />
+        <activity
+            android:name=".drugs.drug_details.DrugDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dependency.DependencyDrugsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".requests.RequestListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.AddDependency"
+            android:exported="false" />
+        <activity
+            android:name=".users.UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".users.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".drugs.add_drugs.view.AddDrugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
