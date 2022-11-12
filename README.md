@@ -7,10 +7,10 @@ supports registering more than one health taker.
 
 #Project Features:
 <br>
-● Pill reminder and alarm for all medication needs.
-● Family and caregiver support via “Medfriend” functionality.
-● Medicine tracker.
-● Refill reminders.
+● Pill reminder and alarm for all medication needs. <br>
+● Family and caregiver support via “Medfriend” functionality. <br>
+● Medicine tracker. <br>
+● Refill reminders. <br>
 
 #Project Members Names:
 <br>
